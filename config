@@ -1,14 +1,12 @@
 [core]
 	repositoryformatversion = 0
-	fileMode = false
+	filemode = true
 	bare = false
 	logallrefupdates = true
-[user]
-	name = hamzahhasan2009
-	email = <>
-[branch "main"]
-[submodule "static"]
-	url = https://github.com/titaniumnetwork-dev/ultraviolet-site.git
+	worktree = ../../../static
 [remote "origin"]
-	url = https://github.com/yukiasked30912/fdsfdsfds
+	url = https://github.com/titaniumnetwork-dev/ultraviolet-site.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
