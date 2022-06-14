@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	fileMode = false
+	bare = false
+	logallrefupdates = true
+[user]
+	name = hamzahhasan2009
+	email = <>
+[branch "main"]
+[submodule "static"]
+	url = https://github.com/titaniumnetwork-dev/ultraviolet-site.git
+[remote "origin"]
+	url = https://github.com/yukiasked30912/fdsfdsfds
+	fetch = +refs/heads/*:refs/remotes/origin/*
